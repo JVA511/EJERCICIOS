@@ -13,11 +13,11 @@
 .nav {
     background-color: rgb(228, 171, 15);
     overflow: hidden;
+    display: flex;
 }
 
 .nav a {
     float: left;
-    display: block;
     color: black;
     text-align: center;
     padding: 10px 15px;
@@ -28,4 +28,44 @@
     font-weight: bold;
     font-size: 19px;
     text-decoration: overline;
+}
+
+
+.row {
+    display: flex;
+}
+
+
+.aside {
+    flex: 30%;
+    background-color: rgb(211, 210, 160);
+    color: black;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.article {
+    flex: 70%;
+    background-color: rgb(174, 194, 101);
+    color: black;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(196, 134, 196);
+    color: black;
+    text-align: left;
+    padding: 20px;
+}
+
+.fecha {
+    text-align: right;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px){
+    .nav, .row{
+        flex-direction: column;
+    }
 }
