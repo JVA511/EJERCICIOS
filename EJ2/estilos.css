@@ -1,0 +1,31 @@
+.body {
+    margin: auto;
+}
+
+.header {
+    background-color: rgb(68, 9, 9);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.nav {
+    background-color: rgb(228, 171, 15);
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: overline;
+}
